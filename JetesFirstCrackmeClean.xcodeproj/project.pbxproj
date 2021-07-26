@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		557A418A26AEF0FE00D083AF /* Readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 557A418926AEF0FE00D083AF /* Readme.txt */; };
 		55BD68C326AC77F000A4ECCE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BD68C226AC77F000A4ECCE /* AppDelegate.m */; };
 		55BD68C626AC77F000A4ECCE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BD68C526AC77F000A4ECCE /* ViewController.m */; };
 		55BD68C826AC77F100A4ECCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55BD68C726AC77F100A4ECCE /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		557A418926AEF0FE00D083AF /* Readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
 		55BD68BE26AC77F000A4ECCE /* JetesFirstCrackmeClean.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JetesFirstCrackmeClean.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55BD68C126AC77F000A4ECCE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		55BD68C226AC77F000A4ECCE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 		55BD68B526AC77F000A4ECCE = {
 			isa = PBXGroup;
 			children = (
+				557A418926AEF0FE00D083AF /* Readme.txt */,
 				55BD68C026AC77F000A4ECCE /* JetesFirstCrackmeClean */,
 				55BD68D726AC77F100A4ECCE /* JetesFirstCrackmeTests */,
 				55BD68E226AC77F100A4ECCE /* JetesFirstCrackmeUITests */,
@@ -233,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				557A418A26AEF0FE00D083AF /* Readme.txt in Resources */,
 				55BD68C826AC77F100A4ECCE /* Assets.xcassets in Resources */,
 				55BD68CB26AC77F100A4ECCE /* Main.storyboard in Resources */,
 			);
