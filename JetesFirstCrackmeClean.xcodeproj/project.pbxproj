@@ -34,7 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		55BD68BE26AC77F000A4ECCE /* JetesFirstCrackme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JetesFirstCrackme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55BD68BE26AC77F000A4ECCE /* JetesFirstCrackmeClean.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JetesFirstCrackmeClean.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55BD68C126AC77F000A4ECCE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		55BD68C226AC77F000A4ECCE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		55BD68C426AC77F000A4ECCE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -44,10 +44,10 @@
 		55BD68CC26AC77F100A4ECCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55BD68CD26AC77F100A4ECCE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		55BD68CF26AC77F100A4ECCE /* JetesFirstCrackme.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JetesFirstCrackme.entitlements; sourceTree = "<group>"; };
-		55BD68D426AC77F100A4ECCE /* JetesFirstCrackmeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JetesFirstCrackmeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55BD68D426AC77F100A4ECCE /* JetesFirstCrackmeCleanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JetesFirstCrackmeCleanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55BD68D826AC77F100A4ECCE /* JetesFirstCrackmeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JetesFirstCrackmeTests.m; sourceTree = "<group>"; };
 		55BD68DA26AC77F100A4ECCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		55BD68DF26AC77F100A4ECCE /* JetesFirstCrackmeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JetesFirstCrackmeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55BD68DF26AC77F100A4ECCE /* JetesFirstCrackmeCleanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JetesFirstCrackmeCleanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55BD68E326AC77F100A4ECCE /* JetesFirstCrackmeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JetesFirstCrackmeUITests.m; sourceTree = "<group>"; };
 		55BD68E526AC77F100A4ECCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,7 +80,7 @@
 		55BD68B526AC77F000A4ECCE = {
 			isa = PBXGroup;
 			children = (
-				55BD68C026AC77F000A4ECCE /* JetesFirstCrackme */,
+				55BD68C026AC77F000A4ECCE /* JetesFirstCrackmeClean */,
 				55BD68D726AC77F100A4ECCE /* JetesFirstCrackmeTests */,
 				55BD68E226AC77F100A4ECCE /* JetesFirstCrackmeUITests */,
 				55BD68BF26AC77F000A4ECCE /* Products */,
@@ -90,14 +90,14 @@
 		55BD68BF26AC77F000A4ECCE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				55BD68BE26AC77F000A4ECCE /* JetesFirstCrackme.app */,
-				55BD68D426AC77F100A4ECCE /* JetesFirstCrackmeTests.xctest */,
-				55BD68DF26AC77F100A4ECCE /* JetesFirstCrackmeUITests.xctest */,
+				55BD68BE26AC77F000A4ECCE /* JetesFirstCrackmeClean.app */,
+				55BD68D426AC77F100A4ECCE /* JetesFirstCrackmeCleanTests.xctest */,
+				55BD68DF26AC77F100A4ECCE /* JetesFirstCrackmeCleanUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		55BD68C026AC77F000A4ECCE /* JetesFirstCrackme */ = {
+		55BD68C026AC77F000A4ECCE /* JetesFirstCrackmeClean */ = {
 			isa = PBXGroup;
 			children = (
 				55BD68C126AC77F000A4ECCE /* AppDelegate.h */,
@@ -110,7 +110,7 @@
 				55BD68CD26AC77F100A4ECCE /* main.m */,
 				55BD68CF26AC77F100A4ECCE /* JetesFirstCrackme.entitlements */,
 			);
-			path = JetesFirstCrackme;
+			path = JetesFirstCrackmeClean;
 			sourceTree = "<group>";
 		};
 		55BD68D726AC77F100A4ECCE /* JetesFirstCrackmeTests */ = {
@@ -134,9 +134,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		55BD68BD26AC77F000A4ECCE /* JetesFirstCrackme */ = {
+		55BD68BD26AC77F000A4ECCE /* JetesFirstCrackmeClean */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 55BD68E826AC77F100A4ECCE /* Build configuration list for PBXNativeTarget "JetesFirstCrackme" */;
+			buildConfigurationList = 55BD68E826AC77F100A4ECCE /* Build configuration list for PBXNativeTarget "JetesFirstCrackmeClean" */;
 			buildPhases = (
 				55BD68BA26AC77F000A4ECCE /* Sources */,
 				55BD68BB26AC77F000A4ECCE /* Frameworks */,
@@ -146,14 +146,14 @@
 			);
 			dependencies = (
 			);
-			name = JetesFirstCrackme;
+			name = JetesFirstCrackmeClean;
 			productName = JetesFirstCrackme;
-			productReference = 55BD68BE26AC77F000A4ECCE /* JetesFirstCrackme.app */;
+			productReference = 55BD68BE26AC77F000A4ECCE /* JetesFirstCrackmeClean.app */;
 			productType = "com.apple.product-type.application";
 		};
-		55BD68D326AC77F100A4ECCE /* JetesFirstCrackmeTests */ = {
+		55BD68D326AC77F100A4ECCE /* JetesFirstCrackmeCleanTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 55BD68EB26AC77F100A4ECCE /* Build configuration list for PBXNativeTarget "JetesFirstCrackmeTests" */;
+			buildConfigurationList = 55BD68EB26AC77F100A4ECCE /* Build configuration list for PBXNativeTarget "JetesFirstCrackmeCleanTests" */;
 			buildPhases = (
 				55BD68D026AC77F100A4ECCE /* Sources */,
 				55BD68D126AC77F100A4ECCE /* Frameworks */,
@@ -164,14 +164,14 @@
 			dependencies = (
 				55BD68D626AC77F100A4ECCE /* PBXTargetDependency */,
 			);
-			name = JetesFirstCrackmeTests;
+			name = JetesFirstCrackmeCleanTests;
 			productName = JetesFirstCrackmeTests;
-			productReference = 55BD68D426AC77F100A4ECCE /* JetesFirstCrackmeTests.xctest */;
+			productReference = 55BD68D426AC77F100A4ECCE /* JetesFirstCrackmeCleanTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		55BD68DE26AC77F100A4ECCE /* JetesFirstCrackmeUITests */ = {
+		55BD68DE26AC77F100A4ECCE /* JetesFirstCrackmeCleanUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 55BD68EE26AC77F100A4ECCE /* Build configuration list for PBXNativeTarget "JetesFirstCrackmeUITests" */;
+			buildConfigurationList = 55BD68EE26AC77F100A4ECCE /* Build configuration list for PBXNativeTarget "JetesFirstCrackmeCleanUITests" */;
 			buildPhases = (
 				55BD68DB26AC77F100A4ECCE /* Sources */,
 				55BD68DC26AC77F100A4ECCE /* Frameworks */,
@@ -182,9 +182,9 @@
 			dependencies = (
 				55BD68E126AC77F100A4ECCE /* PBXTargetDependency */,
 			);
-			name = JetesFirstCrackmeUITests;
+			name = JetesFirstCrackmeCleanUITests;
 			productName = JetesFirstCrackmeUITests;
-			productReference = 55BD68DF26AC77F100A4ECCE /* JetesFirstCrackmeUITests.xctest */;
+			productReference = 55BD68DF26AC77F100A4ECCE /* JetesFirstCrackmeCleanUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -208,7 +208,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 55BD68B926AC77F000A4ECCE /* Build configuration list for PBXProject "JetesFirstCrackme" */;
+			buildConfigurationList = 55BD68B926AC77F000A4ECCE /* Build configuration list for PBXProject "JetesFirstCrackmeClean" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -221,9 +221,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				55BD68BD26AC77F000A4ECCE /* JetesFirstCrackme */,
-				55BD68D326AC77F100A4ECCE /* JetesFirstCrackmeTests */,
-				55BD68DE26AC77F100A4ECCE /* JetesFirstCrackmeUITests */,
+				55BD68BD26AC77F000A4ECCE /* JetesFirstCrackmeClean */,
+				55BD68D326AC77F100A4ECCE /* JetesFirstCrackmeCleanTests */,
+				55BD68DE26AC77F100A4ECCE /* JetesFirstCrackmeCleanUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -286,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		55BD68D626AC77F100A4ECCE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 55BD68BD26AC77F000A4ECCE /* JetesFirstCrackme */;
+			target = 55BD68BD26AC77F000A4ECCE /* JetesFirstCrackmeClean */;
 			targetProxy = 55BD68D526AC77F100A4ECCE /* PBXContainerItemProxy */;
 		};
 		55BD68E126AC77F100A4ECCE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 55BD68BD26AC77F000A4ECCE /* JetesFirstCrackme */;
+			target = 55BD68BD26AC77F000A4ECCE /* JetesFirstCrackmeClean */;
 			targetProxy = 55BD68E026AC77F100A4ECCE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -359,7 +359,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -412,7 +412,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -424,16 +424,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = JetesFirstCrackme/JetesFirstCrackme.entitlements;
+				CODE_SIGN_ENTITLEMENTS = JetesFirstCrackmeClean/JetesFirstCrackme.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = PB7SHXTJHG;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = JetesFirstCrackme/Info.plist;
+				INFOPLIST_FILE = JetesFirstCrackmeClean/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = ch.kimhauser.macos.JetesFirstCrackme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -444,16 +445,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = JetesFirstCrackme/JetesFirstCrackme.entitlements;
+				CODE_SIGN_ENTITLEMENTS = JetesFirstCrackmeClean/JetesFirstCrackme.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = PB7SHXTJHG;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = JetesFirstCrackme/Info.plist;
+				INFOPLIST_FILE = JetesFirstCrackmeClean/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = ch.kimhauser.macos.JetesFirstCrackme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -472,10 +474,10 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = ch.kimhauser.macos.JetesFirstCrackmeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JetesFirstCrackme.app/Contents/MacOS/JetesFirstCrackme";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JetesFirstCrackmeClean.app/Contents/MacOS/JetesFirstCrackmeClean";
 			};
 			name = Debug;
 		};
@@ -492,10 +494,10 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = ch.kimhauser.macos.JetesFirstCrackmeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JetesFirstCrackme.app/Contents/MacOS/JetesFirstCrackme";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JetesFirstCrackmeClean.app/Contents/MacOS/JetesFirstCrackmeClean";
 			};
 			name = Release;
 		};
@@ -538,7 +540,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		55BD68B926AC77F000A4ECCE /* Build configuration list for PBXProject "JetesFirstCrackme" */ = {
+		55BD68B926AC77F000A4ECCE /* Build configuration list for PBXProject "JetesFirstCrackmeClean" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				55BD68E626AC77F100A4ECCE /* Debug */,
@@ -547,7 +549,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		55BD68E826AC77F100A4ECCE /* Build configuration list for PBXNativeTarget "JetesFirstCrackme" */ = {
+		55BD68E826AC77F100A4ECCE /* Build configuration list for PBXNativeTarget "JetesFirstCrackmeClean" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				55BD68E926AC77F100A4ECCE /* Debug */,
@@ -556,7 +558,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		55BD68EB26AC77F100A4ECCE /* Build configuration list for PBXNativeTarget "JetesFirstCrackmeTests" */ = {
+		55BD68EB26AC77F100A4ECCE /* Build configuration list for PBXNativeTarget "JetesFirstCrackmeCleanTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				55BD68EC26AC77F100A4ECCE /* Debug */,
@@ -565,7 +567,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		55BD68EE26AC77F100A4ECCE /* Build configuration list for PBXNativeTarget "JetesFirstCrackmeUITests" */ = {
+		55BD68EE26AC77F100A4ECCE /* Build configuration list for PBXNativeTarget "JetesFirstCrackmeCleanUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				55BD68EF26AC77F100A4ECCE /* Debug */,
